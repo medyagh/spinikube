@@ -32,7 +32,7 @@ def c(cmd):
 
 o("minikube delete")
 
-o("minikube start --memory 10000 --cpus 4 --disk-size=60g")
+o("minikube start --memory 6000 --cpus 2 --disk-size=30g")
 
 #o("kubectl delete namespace spinnaker")
 #time.sleep(30)
